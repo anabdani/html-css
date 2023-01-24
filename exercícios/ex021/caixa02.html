@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1{
+            box-shadow: inset 2px 2px 4px 1px rgba(12, 12, 12, 0.486);
+        }
+
+        nav {
+            background-color: rgb(136, 132, 132);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(5, 5, 5, 0.534);
+         }
+        nav > a {
+            text-decoration: none;
+            color:white;
+            font-weight: bold;
+            margin-right: 30px;
+            }
+            nav > a:hover {
+                text-decoration: underline;
+            }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow:4px 4px 9px 0px rgba(8, 8, 8, 0.425) ;
+        }
+        p {
+            background-color: rgb(236, 232, 232);
+        }
+         article {
+            background-color: rgb(192, 190, 190);
+            padding: 5px;
+         }
+         article > aside {
+            background-color: rgb(124, 117, 117);
+         }
+
+        footer {
+            background-color: rgb(148, 147, 147);
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: opx;
+        }
+        footer > p {
+            background-color: black;
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+       
+    </style>
+<body>
+     <header>
+         <h1>Meu site</h1>
+         <nav>
+            <a href="https://www.instagram.com/_anabdani/"target="_blank" real="externos">instagram</a>
+            <a href="https://www.facebook.com/profile.php?id=100005281811717"target="_blank"real="externos">facebook</a>
+            <a href="https://web.whatsapp.com/"target="_blank" real="externos">whatsapp</a>
+            <a href="https://www.twitch.tv/settings/profile"target="_blank" real="externos">twitch</a>
+            <a href="https://www.youtube.com/"target="_blank" real="externos">youtube</a>
+         </nav>
+     </header>
+     <main>
+        <section id="assuntos">
+                <p>Esportes,Política E Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, ex? Quia hic ullam nulla autem repudiandae perferendis, maiores fuga debitis aperiam id atque quaerat reiciendis odio voluptate corrupti facere at.</p>
+                  <aside>
+                     <p>Artigo escrito por José da Silva</p>
+                  </aside>
+            </article>
+             <article>
+
+             </article>
+        </section>
+     </main>
+     <footer>
+        <p>Desenvolvido  pelo CursoemVideo</p>
+     </footer>
+     <div id="bola"></div>
+</body>
+</html>
